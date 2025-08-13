@@ -20,7 +20,7 @@ def __init__(self, name, health=30, strength=0, defense=0, is_alive=True, weapon
     self.health = health
     self.strength = strength
     self.defense = defense
-    self.is_alive = True
+    self.is_alive = True # CRH: Why did you leave this as a boolean value rather than assigning the variable like you did with all the others?
     self.weapon_equipped = weapon_equipped
     self.limited_weapon_equipped = limited_weapon_equipped
 ```
